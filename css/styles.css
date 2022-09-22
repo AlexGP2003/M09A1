@@ -42,12 +42,15 @@ body{
 }
 
 /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 /* Diseño de columnas */
+
 .column-1{
     width: 100%;
     float: left;
@@ -84,7 +87,9 @@ body{
 }
 
 /* Otras clases */
+
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+
 .flex{
     display: flex;
     align-items: center;
@@ -95,13 +100,5 @@ body{
     /* column-2 pasará de tener 50% a 100% */
     .column-2{
         width: 100%;
-    }
-    /* column-3 pasará de tener 33.33% a 100% */
-    .column-3{
-        width: 100%;
-    }
-    /* column-4 pasará de tener 25% a 50% */
-    .column-4{
-        width: 50%;
     }
 }
