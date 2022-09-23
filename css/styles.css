@@ -86,6 +86,10 @@ body{
     float: left;
 }
 
+.column-25{
+    width: 25%;
+    float: left;
+}
 /* Otras clases */
 
 #logo{
@@ -108,10 +112,30 @@ body{
     padding-top: 2%;
 }
 
+
 .texto1_correcion_ancho{
     padding-left: 20%;
     padding-right: 20%;
 }
+
+.img_carta{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.slider_correcion_ancho{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carrousel{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 
 .flex{
@@ -119,8 +143,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 1000px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .carrousel{
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+       }
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     /* column-2 pasará de tener 50% a 100% */
     .column-2{
         width: 100%;
