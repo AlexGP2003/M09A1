@@ -117,6 +117,9 @@ body{
     padding-left: 20%;
     padding-right: 20%;
 }
+.texto2_correcion_ancho{
+    padding-left: 20%;
+}
 
 .img_carta{
     padding-left: 10%;
@@ -134,6 +137,10 @@ body{
     height: 400px;
     width: 100%;
     object-fit: contain;
+}
+
+#btn_carta{
+    width: 50%;
 }
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
@@ -156,5 +163,8 @@ body{
     /* column-2 pasará de tener 50% a 100% */
     .column-2{
         width: 100%;
+    }
+    .texto2_correcion_ancho{
+        padding-left: 0%;
     }
 }
