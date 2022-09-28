@@ -1,5 +1,6 @@
 html{
-    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
 }
 
 /* Redimensión de fuente utilizando rem */
@@ -38,6 +39,7 @@ h6{
 }
 
 body{
+    font-family: 'Oswald', sans-serif;
     margin: 0;
 }
 
