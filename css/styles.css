@@ -226,6 +226,13 @@ body{
     #btn_carta{
         width: 140%;
     }
+    .img_del_carrousel{
+        margin-top: -20%;
+        margin-bottom: -20%;
+    }
+    .boton_carta_texto{
+        margin-left: 1%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -242,4 +249,16 @@ body{
         padding-bottom: 2%;
         padding-right: 2%;
     }
+    .img_del_carrousel{
+        margin-top: -30%;
+        margin-bottom: -30%;
+    }
 }
+
+@media only screen and (max-width: 400px) {
+    .img_del_carrousel{
+        margin-top: -50%;
+        margin-bottom: -50%;
+    }
+}
+
